@@ -9,3 +9,6 @@ https://bazaar.abuse.ch/sample/355bab2269c022a38af0df27bae2e84c6601b0b2c49edcb43
 <img width="1253" height="947" alt="image" src="https://github.com/user-attachments/assets/8f357f4b-f70e-4fb7-9b2f-a5876382d641" />
 
 
+### Check Host all data log  
+> dataset = xdr_data  
+> | filter agent_hostname = "DESKTOP-8CPDQMC"  
