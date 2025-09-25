@@ -1,4 +1,4 @@
-### Check Malware XQL-QUERY  
+[XQL-QUERY-6920 - 2025_09_25.tsv](https://github.com/user-attachments/files/22534107/XQL-QUERY-6920.-.2025_09_25.tsv)[XQL-QUERY-6920 - 2025_09_25.tsv](https://github.com/user-attachments/files/22534092/XQL-QUERY-6920.-.2025_09_25.tsv)[XQL-QUERY-6920 - 2025_09_25.tsv](https://github.com/user-attachments/files/22534090/XQL-QUERY-6920.-.2025_09_25.tsv)### Check Malware XQL-QUERY  
 > dataset = xdr_data  
 > | filter action_file_sha256 = "355bab2269c022a38af0df27bae2e84c6601b0b2c49edcb4316c2e45da2cbd27"  
 
@@ -11,4 +11,6 @@ https://bazaar.abuse.ch/sample/355bab2269c022a38af0df27bae2e84c6601b0b2c49edcb43
 
 ### Check Host all data log  
 > dataset = xdr_data  
-> | filter agent_hostname = "DESKTOP-8CPDQMC"  
+> | filter agent_hostname = "DESKTOP-8CPDQMC"
+
+[XQL-QUERY-6920 - 2025_09_25.tsv](https://github.com/user-attachments/files/22534122/XQL-QUERY-6920.-.2025_09_25.tsv)
