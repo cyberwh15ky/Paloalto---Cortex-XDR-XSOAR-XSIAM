@@ -12,6 +12,7 @@ STEP 2 | 下載應用程式軟體影像檔。
 完成下載後，Action（動作）欄中的值會變更為 Activate（啟動）。  
 • 如果防火牆無權存取更新伺服器，下載 GlobalProtect 應用程式。下載此軟體映像後，返回防火牆的  
 Device（裝置） > GlobalProtect Client（GlobalProtect 用戶端） 頁面以 Upload（上載）。  
+<img width="1611" height="898" alt="image" src="https://github.com/user-attachments/assets/160ef7f6-a734-4ae6-97ab-98c1f3d8d298" />
 
 STEP 3 | 啟動應用程式軟體影像檔，以使一般使用者能夠從入口網站下載。  
 
@@ -22,8 +23,7 @@ STEP 3 | 啟動應用程式軟體影像檔，以使一般使用者能夠從入�
 清單中選取您上傳的 GlobalProtect Client File（GlobalProtect 用戶端檔案）。按一下 OK（確定）來  
 啟動所選映像。您可能需要先重新整理頁面，然後版本才會顯示為 Currently Activated（目前已啟  
 動）。
-
-<img width="1611" height="898" alt="image" src="https://github.com/user-attachments/assets/160ef7f6-a734-4ae6-97ab-98c1f3d8d298" />
+<img width="1610" height="692" alt="image" src="https://github.com/user-attachments/assets/12668c8d-fdcb-449e-96cf-cd10cf5d53b7" />
 
 
 下載 GlobalProtect 應用程式
