@@ -20,6 +20,7 @@
 | MITRE ATT&CK 框架 | PsExec | 當 Cortex XDR 偵測到 PsExec 被用來開啟遠端服務或傳輸檔案時，警報系統通常會自動將其歸類為 Lateral Movement 戰術。 | PsExec 是一個遠端管理工具。當攻擊者從「已淪陷的工作站」利用它將檔案傳輸到「另一台內部伺服器」時，這代表攻擊者正在內網中擴張勢力範圍。 |
 | Cortex XDR | malware-caused file | Remediation Suggestions 功能 | 自動化與精準性：Cortex XDR 具有「Remediation Suggestions」功能。當惡意軟體造成破壞時（如修改了註冊表或損壞了檔案），XDR 的 Causality Analysis Engine 已經記錄了所有被該惡意程序變動過的項目。分析師只需點擊一下「Remediate」，系統就會自動回滾 (Rollback) 註冊表變更並建議恢復檔案，這比手動操作快得多。|
 | - | Out-of-the-box (OOTB) | 官方預設好的、不必動腦筋設定就能用的。 | - |
+| Cortex XSOAR, Cortex XSIAM, Cortex XDR | 自動化模組 | Incident Type（事件類型） 是整個平台的靈魂，它決定了事件進入系統後如何被處理 | Classify events（事件分類）：當警報從防火牆、SIEM 或郵件匯入時，系統會根據特徵將其分類（例如：Phishing, Malware, Brute Force）。  </br> | Trigger playbooks（觸發劇本）：這是自動化的核心。每一種事件類型都可以綁定一個特定的 Playbook。當事件被建立時，系統會自動啟動對應的調查與回應流程。 </br>  | Customizable layouts（自定義佈局）：不同的事件需要看不同的資訊。例如處理「釣魚郵件」時，介面會顯示郵件內容與附件；處理「暴力破解」時，則顯示來源 IP 與登入次數。 </br>  | SLA parameters（服務等級協定）：你可以為不同緊急程度的事件設定處理時限（如：P1 事件必須在 1 小時內結束），系統會自動追蹤是否逾時。 </br> |
 
 
 | 產品 | Playbook 核心目的 | Trigger 來源主要在哪？ | 
