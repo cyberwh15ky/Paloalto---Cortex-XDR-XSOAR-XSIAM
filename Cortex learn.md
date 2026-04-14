@@ -19,7 +19,7 @@
 | Cortex XDR | correlates  | 關聯 (Correlate)：Causality Analysis Engine 是 Cortex XDR 的核心大腦，它的工作就是將散亂的 Processes（程序）、Network connections（網路連線） 和 File changes（檔案變更） 串聯起來。| - |
 | MITRE ATT&CK 框架 | PsExec | 當 Cortex XDR 偵測到 PsExec 被用來開啟遠端服務或傳輸檔案時，警報系統通常會自動將其歸類為 Lateral Movement 戰術。 | PsExec 是一個遠端管理工具。當攻擊者從「已淪陷的工作站」利用它將檔案傳輸到「另一台內部伺服器」時，這代表攻擊者正在內網中擴張勢力範圍。 |
 | Cortex XDR | malware-caused file | Remediation Suggestions 功能 | 自動化與精準性：Cortex XDR 具有「Remediation Suggestions」功能。當惡意軟體造成破壞時（如修改了註冊表或損壞了檔案），XDR 的 Causality Analysis Engine 已經記錄了所有被該惡意程序變動過的項目。分析師只需點擊一下「Remediate」，系統就會自動回滾 (Rollback) 註冊表變更並建議恢復檔案，這比手動操作快得多。|
-| Out-of-the-box (OOTB) | 官方預設好的、不必動腦筋設定就能用的。 |
+| - | Out-of-the-box (OOTB) | 官方預設好的、不必動腦筋設定就能用的。 | - |
 
 
 | 產品 | Playbook 核心目的 | Trigger 來源主要在哪？ | 
