@@ -1,4 +1,4 @@
-https://docs-cortex.paloaltonetworks.com/api/khub/maps/tOk5m1nUkEFSXa9rbbYdyw/resources/~p0xOunZge6Z0rro7Ry0bQ-tOk5m1nUkEFSXa9rbbYdyw/content?Ft-Calling-App=ft%2Fturnkey-portal&Ft-Calling-App-Version=5.2.61&filename=img-36b6ae44efeeedc58b58fd4484c14060.gif
+![img-36b6ae44efeeedc58b58fd4484c14060](https://github.com/user-attachments/assets/0bbb8e9e-627a-4c47-83f6-2016a1ea2d3e)
 
 XDR license
 
