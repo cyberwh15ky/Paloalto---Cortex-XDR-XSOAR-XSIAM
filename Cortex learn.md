@@ -10,3 +10,10 @@
 | Cortex XSOAR | Content Pack（內容包） | - | - 打包與整合 (Bundling)：Content Pack 是一個「懶人包」。它不只包含 Playbooks 或 Scripts，還會把相關的 Integrations（整合組件）、Dashboards（儀表板）、Layouts（界面佈局） 和 Incident Types（事件類型） 全部打包在一起。</br> - 版本控制與分發 (Versioning/Distribution)：Content Pack 透過 Marketplace 進行分發。它有版本號碼（例如 v1.2.0），你可以輕鬆地一鍵更新整個解決方案，而不必手動一個個去改 Script。</br> - 針對特定使用場景 (Use Cases)：通常一個 Content Pack 就是針對一個特定的安全場景（例如：Phishing 處理包、Brute Force 應對包），讓你可以快速部署整套防禦流程。</br> |
 | Cortex XSIAM and XSOAR | Content Pack（內容包） | 用來擴充系統功能的「組件包」 | 1. Content Pack 經常包含預設的 Playbooks 以及定義何時啟動這些劇本的 Triggers，方便使用者直接部署自動化回應流程。</br> 2. XSIAM 核心功能之一是數據標準化。Content Pack 會提供 Data Mapping 和 Modeling rules，確保從不同來源（如 Firewall, Windows Logs）匯入的資料能正確對齊 XSIAM 的統一數據模型。</br> |
 | Cortex XDR | Behavioral Threat Protection (BTP) | BTP 是 Cortex XDR Agent（端點代理程式）內建的保護模組 | 它的更新通常隨 Agent 版本或內容更新（Content Update）發布，而不是透過 XSIAM 的 Content Pack 來「安裝」或「升級」。|
+
+
+| 產品 | Playbook 核心目的 | Trigger 來源主要在哪？ | 
+| --- | --- | --- |
+| Cortex XSOAR	| 流程編排與工單處理 | 外部整合 (Email, SIEM, API) |
+| Cortex XDR	| 威脅調查與快速回應 | 內部告警 (BTP, Malware, BIOC) |
+| Cortex XSIAM	| 全局安全營運自動化 | 所有的日誌、AI 告警、數據模型 |
