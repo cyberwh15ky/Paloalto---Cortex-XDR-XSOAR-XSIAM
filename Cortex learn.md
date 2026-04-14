@@ -11,8 +11,10 @@
 | Cortex XSIAM and XSOAR | Content Pack（內容包） | 用來擴充系統功能的「組件包」 | 1. Content Pack 經常包含預設的 Playbooks 以及定義何時啟動這些劇本的 Triggers，方便使用者直接部署自動化回應流程。</br> 2. XSIAM 核心功能之一是數據標準化。Content Pack 會提供 Data Mapping 和 Modeling rules，確保從不同來源（如 Firewall, Windows Logs）匯入的資料能正確對齊 XSIAM 的統一數據模型。</br> |
 | Cortex XDR | Behavioral Threat Protection (BTP) | BTP 是 Cortex XDR Agent（端點代理程式）內建的保護模組 | 它的更新通常隨 Agent 版本或內容更新（Content Update）發布，而不是透過 XSIAM 的 Content Pack 來「安裝」或「升級」。|
 | Cortex XDR | Artifact summary | - | 這只是 XDR 中對某個物件（如檔案、IP）的簡易摘要資訊，真正的「行為軌跡詳情」必須跳轉到 WildFire 報告中查看。 |
-| Cortex XDR | WildFire | Detailed Behavior Trace</br> -File Changes（修改了哪些檔案）</br> Registry Activity（動態登錄檔變更） </br> Network Connections（連向哪些 C2 伺服器或 IP） </br> API Calls（呼叫了哪些系統函數）</br> |
-
+| Cortex XDR | WildFire | - | Detailed Behavior Trace</br> -File Changes（修改了哪些檔案）</br> Registry Activity（動態登錄檔變更） </br> Network Connections（連向哪些 C2 伺服器或 IP） </br> API Calls（呼叫了哪些系統函數）</br> |
+| Cortex XSIAM | playbook |  Conditional（條件任務） | 用於建立邏輯分點（例如：如果檔案是惡意的則執行 A，否則執行 B）。常見的類型包括內建條件、手動確認或詢問型任務 (Ask task)。 | 
+| Cortex XSIAM | playbook |  Sub-playbook（子任務清單/子劇本） | 允許在主 Playbook 中調用另一個預先定義好的 Playbook，這對於模組化設計（例如：專門處理「IP 偵測」的標準流程）非常有 | 
+| Cortex XDR, XSOAR, XSIAM | Automation | Script creation | 雖然 Playbook 可以運行「腳本 (Scripts)」，但「Script creation（建立腳本）」通常是在自動化管理介面的 Automation/Scripts 頁面進行 |
 
 
 
