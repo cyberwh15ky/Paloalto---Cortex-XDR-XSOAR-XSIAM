@@ -4,3 +4,7 @@
 | Cortex XSOAR | Section header | 視覺化分組 | 1. 邏輯分組：Playbook 通常很長，包含數十個步驟。Section header 可以將這些步驟劃分為不同的階段（如：Engagement 介入、Triage 檢測、Containment 抑制）。<br> 2. 視覺呈現：在圖形化界面中，它會產生一個明顯的框框或標籤，讓調查人員一眼就能看出目前案件進行到哪個階段。<br> 3. 管理進度：這有助於在 Incident 頁面中追蹤每個階段的完成狀況，而不是面對一堆散亂的任務（Tasks）。<br> |
 | SOC | WildFire Malware Alert | Palo Alto Networks 的沙箱偵測系統已經識別出該檔案具有惡意行為特徵。 | 一個已知的惡意軟體（WildFire 判定）觸發了試圖竊取憑證的操作（lsass dump） |
 | SOC | BTP (Behavioral Threat Protection) alert on lsass dump | 非常典型的攻擊行為。lsass.exe（本地安全授權子系統服務）存儲了使用者的憑證資訊。攻擊者經常試圖對其進行記憶體轉儲（Dump），以便利用如 Mimikatz 等工具竊取密碼或雜湊值（Hash），進而進行橫向移動。 | 一個已知的惡意軟體（WildFire 判定）觸發了試圖竊取憑證的操作（lsass dump） |
+| Cortex XDR | Analytics Engine（分析引擎） | 關鍵字是 "Baseline"（基準線）、"Anomaly"（異常）、"Identity"（身分） | 只要題目提到「偏離正常行為」或「偵測隱蔽攻擊」，答案幾乎都是它。 |
+| Cortex XDR | Causality Analysis Engine（因果分析引擎） | 關鍵字是 "Root Cause"（根源）、"Causality Group"（因果組） | 它的工作是告警發生後，往回找是哪個程序（Parent Process）闖的禍。 |
+| Cortex XDR | BTP (Behavioral Threat Protection) | 關鍵字是 "Real-time"（即時）、"Endpoint"（端點） | 它是在端點上「當場」攔截惡意行為（例如 lsass dump）。 |
+| Cortex XSOAR | Content Pack（內容包） | - | - 打包與整合 (Bundling)：Content Pack 是一個「懶人包」。它不只包含 Playbooks 或 Scripts，還會把相關的 Integrations（整合組件）、Dashboards（儀表板）、Layouts（界面佈局） 和 Incident Types（事件類型） 全部打包在一起。</br> - 版本控制與分發 (Versioning/Distribution)：Content Pack 透過 Marketplace 進行分發。它有版本號碼（例如 v1.2.0），你可以輕鬆地一鍵更新整個解決方案，而不必手動一個個去改 Script。</br> - 針對特定使用場景 (Use Cases)：通常一個 Content Pack 就是針對一個特定的安全場景（例如：Phishing 處理包、Brute Force 應對包），讓你可以快速部署整套防禦流程。</br> |
