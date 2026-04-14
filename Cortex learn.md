@@ -16,7 +16,9 @@
 | Cortex XSIAM | playbook |  Conditional（條件任務） | 用於建立邏輯分點（例如：如果檔案是惡意的則執行 A，否則執行 B）。常見的類型包括內建條件、手動確認或詢問型任務 (Ask task)。 | 
 | Cortex XSIAM | playbook |  Sub-playbook（子任務清單/子劇本） | 允許在主 Playbook 中調用另一個預先定義好的 Playbook，這對於模組化設計（例如：專門處理「IP 偵測」的標準流程）非常有 | 
 | Cortex XDR, XSOAR, XSIAM | Automation | Script creation | 雖然 Playbook 可以運行「腳本 (Scripts)」，但「Script creation（建立腳本）」通常是在自動化管理介面的 Automation/Scripts 頁面進行 |
-
+| Cortex XDR | correlates  | 關聯 (Correlate)：Causality Analysis Engine 是 Cortex XDR 的核心大腦，它的工作就是將散亂的 Processes（程序）、Network connections（網路連線） 和 File changes（檔案變更） 串聯起來。| - |
+| MITRE ATT&CK 框架 | PsExec | 當 Cortex XDR 偵測到 PsExec 被用來開啟遠端服務或傳輸檔案時，警報系統通常會自動將其歸類為 Lateral Movement 戰術。 | PsExec 是一個遠端管理工具。當攻擊者從「已淪陷的工作站」利用它將檔案傳輸到「另一台內部伺服器」時，這代表攻擊者正在內網中擴張勢力範圍。 |
+| Cortex XDR | malware-caused file | Remediation Suggestions 功能 | 自動化與精準性：Cortex XDR 具有「Remediation Suggestions」功能。當惡意軟體造成破壞時（如修改了註冊表或損壞了檔案），XDR 的 Causality Analysis Engine 已經記錄了所有被該惡意程序變動過的項目。分析師只需點擊一下「Remediate」，系統就會自動回滾 (Rollback) 註冊表變更並建議恢復檔案，這比手動操作快得多。|
 
 
 
