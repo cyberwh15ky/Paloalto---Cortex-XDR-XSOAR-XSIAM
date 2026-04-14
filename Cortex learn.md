@@ -23,6 +23,9 @@
 | Cortex XSOAR, Cortex XSIAM, Cortex XDR | 自動化模組 | Incident Type（事件類型） 是整個平台的靈魂，它決定了事件進入系統後如何被處理 | Classify events（事件分類）：當警報從防火牆、SIEM 或郵件匯入時，系統會根據特徵將其分類（例如：Phishing, Malware, Brute Force）。  </br> | Trigger playbooks（觸發劇本）：這是自動化的核心。每一種事件類型都可以綁定一個特定的 Playbook。當事件被建立時，系統會自動啟動對應的調查與回應流程。 </br>  | Customizable layouts（自定義佈局）：不同的事件需要看不同的資訊。例如處理「釣魚郵件」時，介面會顯示郵件內容與附件；處理「暴力破解」時，則顯示來源 IP 與登入次數。 </br>  | SLA parameters（服務等級協定）：你可以為不同緊急程度的事件設定處理時限（如：P1 事件必須在 1 小時內結束），系統會自動追蹤是否逾時。 </br> |
 | Cortex XDR, XSIAM | Log stitching (日誌縫合) | - |  Eliminates need for manual analysis (消除手動分析的需求), Multiple sensors (多個感測器)  |
 | Cortex XSIAM | Proprietary source code (專有源代碼/知識產權), Classified (分類) | Confidential (機密) | 看到 Source code、Trade secrets（商業秘密）➔ 直接選 Confidential。 |
+| Cortex XSOAR | Prioritize newly ingested | Source Reliability Score
+| Data Protection 或 DLP 的題目中 | Benefit/Purpose |  尋找 Compliance (合規)、Regulations (法規) 或 Risk Mitigation (風險緩解)。 |
+| Cortex XSIAM, XSOAR | Download Content（下載內容）或 Content Store（內容商店）| 直接選 Marketplace。 |
 
 
 | 產品 | Playbook 核心目的 | Trigger 來源主要在哪？ | 
@@ -30,3 +33,22 @@
 | Cortex XSOAR	| 流程編排與工單處理 | 外部整合 (Email, SIEM, API) |
 | Cortex XDR	| 威脅調查與快速回應 | 內部告警 (BTP, Malware, BIOC) |
 | Cortex XSIAM	| 全局安全營運自動化 | 所有的日誌、AI 告警、數據模型 |
+
+
+
+
+How is internal proprietary source code classified?
+ A. Restricted
+ B. Confidential
+ C. Internal Use Only
+ D. Private
+Ans: A (Restricted)
+AI: B (Confidential)
+
+Most direct indicator attribute to prioritize newly ingested IOCs in Cortex XSOAR?
+ A. Indicator Verdict
+ B. Source Reliability Score
+ C. TLP Label
+ D. Expiration Status
+Ans: A (Indicator Verdict)
+AI: B (Source Reliability Score)
