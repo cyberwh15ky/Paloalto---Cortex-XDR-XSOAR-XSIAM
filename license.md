@@ -1,3 +1,5 @@
+https://docs-cortex.paloaltonetworks.com/api/khub/maps/tOk5m1nUkEFSXa9rbbYdyw/resources/~p0xOunZge6Z0rro7Ry0bQ-tOk5m1nUkEFSXa9rbbYdyw/content?Ft-Calling-App=ft%2Fturnkey-portal&Ft-Calling-App-Version=5.2.61&filename=img-36b6ae44efeeedc58b58fd4484c14060.gif
+
 XDR license
 
 | Capabilities | Description | Cortex XDR Prevent | Cortex XDR Pro per Endpoint | Cortex XDR Cloud per Host | Cortex XDR Pro per Gigabyte |
