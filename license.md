@@ -29,4 +29,13 @@ XDR license
 
 FYI: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-3.x-Documentation/Use-the-interface
 
+
+
+最少50粒才可以用  跟人頭
+<img width="1017" height="536" alt="image" src="https://github.com/user-attachments/assets/8bdcb766-6675-45b2-9828-80f887393c74" />
+
+
+
+
+
 Doucment Edit time : 2026/04/14
