@@ -1,3 +1,8 @@
+XTH FYI Document 
+https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Analytics-Alert-Reference-by-data-source/XDR-Agent-with-eXtended-Threat-Hunting-XTH
+
+
+
 ![img-36b6ae44efeeedc58b58fd4484c14060](https://github.com/user-attachments/assets/0bbb8e9e-627a-4c47-83f6-2016a1ea2d3e)
 
 XDR license
