@@ -1,5 +1,4 @@
-XTH FYI Document 
-https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Analytics-Alert-Reference-by-data-source/XDR-Agent-with-eXtended-Threat-Hunting-XTH
+
 
 
 
@@ -35,7 +34,16 @@ FYI: https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-3.x-Docume
 <img width="1017" height="536" alt="image" src="https://github.com/user-attachments/assets/8bdcb766-6675-45b2-9828-80f887393c74" />
 
 
+Corxe XDR
+- Per n add
+- Pro c add holdinsi' app so on, moq 200^/人頭
+- XTH FYI Document 
+https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-Analytics-Alert-Reference-by-data-source/XDR-Agent-with-eXtended-Threat-Hunting-XTH
 
+Cortex Cloud 
+- Cloud 的定義起碼是要有K8S，EC2不算
 
-
+For Cn
+- 特權網絡 
+- 國家提供特權 合法VPN，PA 提供 Broker VM給中國使用 該VM 存放在中國
 Doucment Edit time : 2026/04/14
