@@ -55,3 +55,19 @@ Most direct indicator attribute to prioritize newly ingested IOCs in Cortex XSOA
  D. Expiration Status
 Ans: A (Indicator Verdict)
 AI: B (Source Reliability Score)
+
+
+
+Which predefined role can investigate alerts and perform remediation without full admin control?
+ A. Viewer
+ B. Investigator
+ C. Deployment Admin
+ D. Responder
+Ans: 
+
+Which predefined role in Cortex XDR tenant can view and triage incidents?
+ A. IT administrator
+ B. Investigator
+ C. Responder
+ D. Viewer
+Ans: 
