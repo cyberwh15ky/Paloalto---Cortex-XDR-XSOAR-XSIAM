@@ -10,10 +10,10 @@
 | VM-700 | 8.0 Gbps | 虛擬接口 (vNIC) | FG-VM16 | 13.0 Gbps | 虛擬接口 (vNIC) | ~$12,000+ |
 | N/A | N/A | N/A | FG-VM32 | 24.0 Gbps | 虛擬接口 (vNIC) | ~$22,000+ |
 | [實體 - 入門/分公司] | | | | | | |
-| PA-220 | 0.15 Gbps | 8x GE RJ45 | FG-40F | 0.6 Gbps | 5x GE RJ45 | ~$600 - $900 |
-| PA-410 | 0.8 Gbps | 4x GE RJ45 | FG-60F | 0.7 Gbps | 10x GE RJ45 | ~$900 - $1,300 |
+|| PA-220 | 0.15 Gbps | 8x GE RJ45 | FG-40F | 0.6 Gbps | 5x GE RJ45 | ~$600 - $900 |
+|^| PA-410 | 0.8 Gbps | 4x GE RJ45 | FG-60F | 0.7 Gbps | 10x GE RJ45 | ~$900 - $1,300 |
 | PA-415 / 5G | 0.8 Gbps | 8x GE PoE, 1x SFP | FG-70G | 1.3 Gbps | 12x GE RJ45 | ~$1,800 - $2,400 |
-| PA-440 | 1.25 Gbps | 8x GE RJ45 | FG-80F | 0.9 Gbps | 8x GE, 2x SFP | ~$1,600 - $2,200 |
+|^| PA-440 | 1.25 Gbps | 8x GE RJ45 | FG-80F | 0.9 Gbps | 8x GE, 2x SFP | ~$1,600 - $2,200 |
 | PA-445 | 1.25 Gbps | 8x GE PoE, 2x SFP | FG-81F | 0.9 Gbps | 8x GE, 2x SFP | ~$1,900 - $2,500 |
 | PA-450 | 1.6 Gbps | 8x GE RJ45 | N/A | N/A | N/A | N/A |
 | PA-460 | 2.4 Gbps | 8x GE RJ45 | FG-90G | 3.5 Gbps | 8x GE, 2x 10G SFP+ | ~$2,500 - $3,500 |
@@ -23,10 +23,11 @@
 | PA-1420 | 5.5 Gbps | 8x Multi-Gig, 4x 10G | FG-200F | 3.0 Gbps | 18x GE, 4x 10G SFP+ | ~$8,000 - $11,000 |
 | PA-3410 | 6.8 Gbps | 12x 10G, 2x 25G | FG-200G | 6.4 Gbps | 8x GE, 8x 10G, 2x 25G | ~$10,000 - $14,000 |
 | PA-3420 | 8.3 Gbps | 12x 10G, 4x 25G | FG-400F | 9.0 Gbps | 16x GE, 4x 10G SFP+ | ~$16,000 - $22,000 |
+| PA-3430 |
 | PA-3440 | 13.3 Gbps | 12x 10G, 4x 25G | FG-600F | 10.5 Gbps | 16x GE, 4x 10G, 2x 25G | ~$22,000 - $30,000 |
 | N/A | N/A | N/A | FG-900G | 30.0 Gbps | 8x GE, 8x 10G, 2x 25G | ~$35,000 - $45,000 |
 | [實體 - 高階/數據中心] | | | | | | |
-| PA-5410 | 41.0 Gbps | 12x 10G, 4x 100G | FG-1000F | 15.0 Gbps | 8x 10G RJ45, 2x 100G | ~$50,000 - $65,000 |
+|*| PA-5410 | 41.0 Gbps | 12x 10G, 4x 100G | FG-1000F | 15.0 Gbps | 8x 10G RJ45, 2x 100G | ~$50,000 - $65,000 |
 | PA-5420 | 49.0 Gbps | 12x 10G, 4x 100G | FG-1800F | 17.0 Gbps | 16x 10G SFP+, 2x 40G | ~$65,000 - $85,000 |
 | PA-5430 | 60.0 Gbps | 12x 10G, 4x 100G | FG-2600F | 24.0 Gbps | 16x 10G, 4x 100G | ~$80,000 - $110,000 |
 | PA-5440 | 71.0 Gbps | 20x 10G, 4x 100G | FG-3000F | 34.0 Gbps | 16x 25G, 8x 100G | ~$100,000 - $130,000 |
